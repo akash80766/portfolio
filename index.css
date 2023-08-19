@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html{scroll-behavior: smooth;}
+
+.nav {
+    display: flex;
+}
+
+.name-sec {
+    width: 50%;
+    height: 100px;
+
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+
+}
+
+.square {
+    height: 20px;
+    width: 20px;
+    background-color: blue;
+    margin-right: 10px;
+    margin-left: 30px;
+}
+
+.menu-item {
+    margin-left: 20px;
+    padding: 8px;
+    font-size: 14px;
+
+
+
+
+}
+.menu-item:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+.menu {
+    width: 50%;
+    height: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.midleft-container {
+    width: 40%;
+    height: 952px;
+
+    background-color: #E6DACE;
+
+
+}
+
+.midright-container {
+    width: 60%;
+    height: 952px;
+
+
+}
+
+.midmain-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.p-section {
+    width: 375px;
+    height: 525.78px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 215.11px 0px 0px 215.11px;
+    background-color: #f4ece6;
+
+}
+
+.logo {
+    margin-top: 50px;
+    width: 205px;
+    height: 205px;
+    border-radius: 100%;
+
+    background-image: url(images/akassh.jpg);
+    background-size: cover;
+
+
+}
+
+.b-line {
+    width: 50px;
+    height: 5px;
+    background-color: blue;
+}
+
+.mid-sec {
+
+    height: 53px;
+    width: 100%;
+    background-color: white;
+
+
+}
+
+.logo-list {
+    margin: 12px 0px 0px 70px;
+
+}
+
+.mini-logo {
+    float: left;
+    list-style: none;
+    margin-left: 20px;
+}
+
+.mid-content {
+    width: 50%;
+    height: 500px;
+
+    margin-top: 270px;
+    margin-left: 50px;
+    text-align: center;
+}
+
+.resume-btn {
+    color: white;
+    background-color: blue;
+    padding: 8px 15px 8px 15px;
+    border-radius: 200px;
+    font-weight: bold;
+    border-color: blue;
+    margin-top: 70px;
+    margin-bottom: 20px;
+
+}
+
+.project-btn {
+    color: BLACK;
+    background-color: white;
+    padding: 8px 15px 8px 15px;
+    border-radius: 200px;
+    font-weight: bold;
+
+}
+
+.project-btn:hover {
+    border-color: blue;
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+}
+
+.resume-btn:hover {
+    color: black;
+    background-color: white;cursor: pointer;
+}
+.footer{
+    width: 100%;
+    height:150px;
+    display: flex; 
+}
+.foot-left{
+    width: 40%;
+    height: 149px;
+    }
+.foot-right{
+    width: 60%;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.call{
+    width:200px;
+    height:150px;
+    
+}
+.write{
+    width:200px;
+    height:150px;
+    
+}
+.follow{
+    width:200px;
+    height:150px;
+    
+}

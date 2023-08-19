@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    display: flex;
+}
+
+.name-sec {
+    width: 50%;
+    height: 100px;
+
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+
+}
+
+.square {
+    height: 20px;
+    width: 20px;
+    background-color: blue;
+    margin-right: 10px;
+    margin-left: 30px;
+}
+
+.menu-item {
+    margin-left: 20px;
+    padding: 8px;
+    font-size: 14px;
+
+
+
+
+}
+.menu-item:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+.menu {
+    width: 50%;
+    height: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-container{
+    
+    height: 100%;
+    width: 100%;
+    border: 1px solid #e6dace;
+    
+    
+    
+    background-color: #e6dace;
+}
+.present{
+    height: 367px;
+    width: 724px;
+    background-color: #ffffff;
+    display: block;
+    margin: auto;
+}
+.education{
+    height: 367px;
+    width: 724px;
+    display: block;
+    margin: auto;
+    background-color: #ffffff;
+
+}
+.education2{
+    height: 367px;
+    width: 724px;
+    display: block;
+    background-color: #ffffff;
+    margin: auto;
+}
+.skills{
+    height: 511px;
+    width: 724px;
+    background-color: #ffffff;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px ;
+    padding: 10px;
+
+
+}
+.resume{display: flex;
+    width: 200px;
+    margin-left: 40%;
+    margin-top: 100px;
+
+
+}
+.square2{
+    height: 20px;
+    width: 20px;
+    background-color: blue;
+    margin-top: 7px;
+    margin-right: 10px;
+}
+.experince{
+    height: 367px;
+    width: 724px;
+    border:1px solid red;
+    background-color: #ffffff;
+    display: block;
+    margin: auto;
+}
+.button-line{
+    width: 724px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 310px;
+    margin-top: 90px;
+    margin-bottom: 40px;
+}
+.btn{
+   
+    margin-right: 20px;
+}
+.dw-button{
+    border-radius:100px;
+    background-color: blue;
+    color:white;
+    height:40px;
+    width:154px;
+    font-weight: bold;
+    border-color: blue;
+}
+.dw-button:hover{
+    background-color: #e6dace;
+    color: black;
+
+
+}
+.present{
+    margin-bottom: 40px;
+    display:flex;
+
+}
+.education{
+    margin-bottom: 40px;
+    display: flex;
+}
+.education2{
+    margin-bottom: 40px;
+    display: flex;
+}
+.left-side{
+    height:100%;
+    width: 40%;
+    text-align: center;
+}.right-side{
+    height:100%;
+    width: 60%;
+    align-items: center;
+    
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+.line1{
+    display: flex;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.boxx{
+    height: 10px;
+    width: 10px;
+    background-color: blue;
+    margin: 0px 10px 0px 10px;
+}
+.el1{
+    display: flex;
+    width: 50%;
+    align-items: center;
+}
+.el2{
+    display: flex;
+    width: 50%;
+    align-items: center;
+}
+.line2{
+    display: flex;
+    width: 100%;
+}
+.footer{
+    width: 100%;
+    height:150px;
+    display: flex; 
+}
+.foot-left{
+    width: 40%;
+    height: 149px;
+    }
+.foot-right{
+    width: 60%;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.call{
+    width:200px;
+    height:150px;
+    
+}
+.write{
+    width:200px;
+    height:150px;
+    
+}
+.follow{
+    width:200px;
+    height:150px;
+    
+}
+
